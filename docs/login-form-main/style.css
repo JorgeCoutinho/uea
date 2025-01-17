@@ -11,7 +11,7 @@
 
 
 body {
-    background: linear-gradient(45deg, #460faa, #0061e0);
+    background: linear-gradient(45deg, #200e42, #062246);
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
@@ -48,7 +48,7 @@ main h2::before {
     bottom: 3px;
     left: 0;
     border-radius: 8px;
-    background: linear-gradient(45deg, #460faa, #0061e0);
+    background: linear-gradient(45deg, #200e42, #062246);
 }
 
 /* estilizando o form */
@@ -85,7 +85,7 @@ form .input-field:first-child {
     width: 100%;
     bottom: -5px;
     left: 0;
-    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    background: linear-gradient(45deg, #200e42, #062246);
     transform: scaleX(0);
     transition: all .3s ease-in-out;
     transform-origin: left;
@@ -116,7 +116,7 @@ form input[type="submit"] {
     margin-top: 2rem;
     padding: 0.4rem;
     width: 100%;
-    background: linear-gradient(to left, #4776E6, #8e54e9);
+    background: linear-gradient(45deg, #200e42, #062246);
     cursor: pointer;
     color: white;
     font-size: 0.9rem;
@@ -128,7 +128,7 @@ form input[type="submit"] {
 /* estilizando o botão quando ele estiver focado */
 form input[type="submit"]:hover {
     letter-spacing: 0.5px;
-    background: linear-gradient(to right, #4776E6, #8e54e9);
+    background: linear-gradient(45deg, #4514a0, #1467d3);
 }
 
 /* estilizando o footer */
@@ -169,10 +169,10 @@ form input[type="submit"]:hover {
 
 /* estilizando o social fiel ttwitter gradiente */
 .footer .social-field.twitter {
-    background: linear-gradient(to right, #56a7f2, #468aca);
+    background: linear-gradient(45deg, #200e42, #0a57bb); 
 }
 
 /* estilizando o social fiel facebook gradiente */
 .footer .social-field.facebook {
-    background: linear-gradient(to right, #1e3c72, #2a5298);
+    background: linear-gradient(45deg, #200e42, #0a57bb);
 }
